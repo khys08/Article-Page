@@ -1,0 +1,218 @@
+/* General Styles */
+body {
+  background-color: rgba(255, 235, 205, 0.63);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Navbar {
+  width: 100%;
+  background-color: rgb(255, 188, 87);
+  border-radius: 5px;
+  margin: 10px 0; /* Adjust margin to space it correctly from other content */
+  padding: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.Navbar h1 {
+  margin: 0;
+  text-align: center; /* Center align the Navbar title */
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%; /* Ensure home section takes full width */
+}
+
+.articles {
+  width: 60%;
+}
+
+.Artdet {
+  font-family: sans-serif;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px black;
+  width: 100%;
+}
+
+.Artdet h2 {
+  color: #1aac83;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.Artdet p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
+.art {
+  text-align: right;
+  font-style: italic;
+  margin-top: 20px;
+  margin-right: 0;
+}
+
+.Nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 500px;
+}
+
+/* Article Form Styles */
+.Form {
+  width: 100%;
+  max-width: 400px; /* Limit the width of the form */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  box-sizing: border-box;
+  margin: 20px auto; /* Center form horizontally and add vertical spacing */
+}
+
+.Form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Form legend {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.Form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.Form input, .Form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.Form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.Form input::placeholder, .Form textarea::placeholder {
+  color: #aaa;
+}
+
+.Form button {
+  padding: 10px 20px;
+  background-color: #1aac83;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Form button:hover {
+  background-color: #159c6c;
+}
+
+/* Login Form Styles */
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+#username-group,
+#password-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#username-label,
+#password-label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+#username,
+#password {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#signin-btn,
+#login-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#signin-btn {
+  background-color: #1aac83;
+}
+
+#signin-btn:hover {
+  background-color: #159c6c;
+}
+
+#login-btn {
+  background-color: #007bff;
+  margin-left: 10px; /* Adds gap between Sign In and Login buttons */
+}
+
+#login-btn:hover {
+  background-color: #0056b3;
+}
+
+#forgot-password {
+  margin-top: 10px;
+}
+
+#forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#forgot-password a:hover {
+  text-decoration: underline;
+}
